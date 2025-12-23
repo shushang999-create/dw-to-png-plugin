@@ -512,7 +512,7 @@ const TableRenderer: React.FC<TableRendererProps> = ({
         
         {/* 图片添加到表格设置 */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-          <label style={{ minWidth: '60px' }}>目标数据表:</label>
+          <label style={{ minWidth: '60px' }}>目标数据表存放位置:</label>
           <select
             value={selectedTableId || ''}
             onChange={(e) => setSelectedTableId(e.target.value || undefined)}
